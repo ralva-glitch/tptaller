@@ -1,0 +1,10 @@
+# Datos generados localmente (opcional, solo si se corre scripts/generate_dataset.py)
+data/
+
+# Python
+__pycache__/
+*.pyc
+
+# Sistema
+.DS_Store
+Thumbs.db
