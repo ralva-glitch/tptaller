@@ -11,13 +11,31 @@ A partir de estos datos se desarrolló un dashboard interactivo y un motor de re
 ## Contenido
 
 ```
-.
-├── index.html          # Pagina Web
-├── app.js               # Lógica: KPIs, gráficos, filtros y motor de similitud (TF-IDF)
-├── dataset_embed.js     # Dataset (800 títulos) embebido como variable JS
+├── index.html            # Pagina Web
+├── app.js                # Lógica: KPIs, gráficos, filtros y motor de similitud (TF-IDF)
+├── dataset_embed.js      # Dataset (800 títulos) embebido como variable JS
+├── README.md
+├── LICENSE
+├── docs/
+│   ├── Presentacion_Proyecto.pdf
+│   ├── Seguimiento.pdf
+│   └── Flujo_n8n.pdf
 └── scripts/
-    └── generate_dataset.py   # Script opcional para regenerar el dataset (Python)
+    └── generate_dataset.py
 ```
+## Arquitectura del proyecto
+
+Datasets Kaggle
+        ↓
+Limpieza y unificación (Python / Google Colab)
+        ↓
+Dataset final
+        ↓
+Dashboard Web (HTML + JS + Chart.js)
+        ↓
+Motor de recomendación (TF-IDF)
+        ↓
+Chatbot OpenAI + n8n
 
 ## Objetivos
 
