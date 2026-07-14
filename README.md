@@ -26,14 +26,19 @@ A partir de estos datos se desarrolló un dashboard interactivo y un motor de re
 ## Arquitectura del proyecto
 
 Datasets Kaggle
+
         ↓
 Limpieza y unificación (Python / Google Colab)
+
         ↓
 Dataset final
+
         ↓
 Dashboard Web (HTML + JS + Chart.js)
+
         ↓
 Motor de recomendación (TF-IDF)
+
         ↓
 Chatbot OpenAI + n8n
 
