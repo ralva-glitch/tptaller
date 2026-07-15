@@ -24,7 +24,7 @@ tp-con-sorpreas/
 ├── README.md
 ├── LICENSE
 │
-└── presentaciones/
+└── docs/
     ├── Stream IA - Pagina.pptx
     └── Proyecto Stream IA con n8n.pptx
 ```
